@@ -1,0 +1,223 @@
+*, *::before, *::after { 
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Righteous', cursive;
+   overflow-x: hidden;
+   background: white; 
+   color: black;
+}
+.head{
+    position: relative;
+}
+.head-waves{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 60%;
+    z-index: 1;
+ }
+.projects-main {
+    font-size: 0px;
+}
+.my-project-wrapper{
+    background-color: rgb(255, 144, 0);
+}
+
+.my-project-wrapper{
+    display: block;
+    margin-top: 0px;
+    font-size: 10px;
+}
+
+ .projects-header{
+    text-align: center;
+    padding: 60px 0px;
+    color: #fff;
+}
+
+.card {
+    border: none;
+}
+.projects{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.card-deck{
+    padding-bottom: 100px;
+}
+
+.button{
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 20px;
+    background-color: #f8ef42;
+    background-image: linear-gradient(315deg, #f8ef42 0%, #0fd64f 74%);
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.button:hover{
+    text-decoration: none;
+    color: white;
+    background-color: #f8ef42;
+    background-image: linear-gradient(315deg, #f8ef42 0%, #0fd64f 74%);
+}
+
+.card-footer {
+    background: white;
+}
+
+video {
+    width: 100%;
+    height: auto;
+  }
+
+.overlay{
+  background: rgb(255, 144, 0, 0.5);
+  position: relative;
+  right: 0;
+  bottom: 120vh;
+  min-width: 100vw; 
+  min-height: 119.3vh;
+}
+.about-me{
+    height: 10vh;
+}
+
+.background {
+    height: 120vh;
+}
+
+.social-link{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+.social-link:hover{
+    text-decoration: none;
+    color: rgb(255, 144, 0);
+}
+.landing-content{
+    position: absolute; 
+    top: 150px; 
+    color: black; 
+    margin-left: 40%;
+}
+.socials{
+    display: flex; 
+    width: 250px; 
+    justify-content: space-between; 
+    margin-top: 170px; 
+    padding-right: 20px;
+}
+h1.myname {
+    color: white;
+    background: black;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+
+.card-text{
+    padding-top: 20px;
+    font-size: 0.9rem;
+}
+
+.contact{
+    color: rgb(255, 144, 0);
+}
+
+.contact:hover{
+    text-decoration: none;
+    color: #0fd64f;
+}
+a:hover{
+    text-decoration: none;
+}
+
+#nav-full{
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+    color: white; 
+    background-color: rgb(255, 144, 0); 
+    z-index: 11; 
+    display: none;
+}
+#nav-full a {
+    color: white;
+}
+#nav-full a:hover{
+    text-decoration: none;
+    color: #0fd64f;
+}
+#nav-full a:active{
+    color: white;
+    text-decoration: none;
+}
+
+#open-nav{
+    color: white; 
+    left: 0; 
+    top: 0; 
+    display: block; 
+    position: fixed; 
+    text-decoration: none; 
+    background-color: rgb(255, 144, 0); 
+    padding: 18px 22px; 
+    font-size: 21px; 
+    z-index: 10;
+}
+
+#close-nav{
+    position: fixed; 
+    color: white;
+    text-decoration: none; 
+    background-color: black; 
+    padding: 18px 22px; 
+    top: 0; 
+    right: 0; 
+    font-size: 21px;
+}
+
+.socials.nav{
+    margin-top: 70px;
+}
+
+.about-me{
+    margin-top: -47%;
+}
+
+/* Responsive */
+@media only screen and (max-width: 1200px) {
+    .landing-content {
+        top: 350px;
+    }
+    .socials{
+        margin-top: 90px;
+    }
+    .head-waves{
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    .landing-content {
+        top: 400px;
+        position: absolute;
+        margin-left: 30%;
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .landing-content {
+        /* top: 550px; */
+        margin-left: 25%;
+    }
+  }

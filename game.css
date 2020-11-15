@@ -1,0 +1,29 @@
+.grid{
+    /* width: 100vh; */
+    width: 400px;
+    /* height: 100vh; */
+    height: 600px; 
+    /* background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%); */
+    background: #eec0c6;
+    position: relative;
+}
+
+.doodler{
+    width: 60px;
+    height: 85px;
+    background-color: white;
+    position: absolute;
+}
+
+.platform{
+    width: 85px;
+    height: 15px;
+    background-color: black;
+    position: absolute;
+}
+
+div.card-footer {
+    background: white;
+    border-top: white;
+}
