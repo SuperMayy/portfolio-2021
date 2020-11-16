@@ -220,4 +220,7 @@ a:hover{
         /* top: 550px; */
         margin-left: 25%;
     }
+    .about-me {
+        margin-top: -100%;
+    }
   }
