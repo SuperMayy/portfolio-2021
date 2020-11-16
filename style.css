@@ -224,3 +224,18 @@ a:hover{
         margin-top: -120%;
     }
   }
+
+  @media only screen and (max-width: 400px) {
+    .landing-content {
+        /* top: 620px; */
+        margin-left: 8%;
+    }
+    video {
+        width: 200%;
+        /* height: auto; */
+    }
+    .about-me {
+        margin-top: -190%;
+    }
+  }
+
