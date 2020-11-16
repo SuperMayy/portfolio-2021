@@ -225,10 +225,11 @@ a:hover{
     }
   }
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 500px) {
     .landing-content {
         /* top: 620px; */
-        margin-left: 8%;
+        margin-left: 15%;
+        margin-top: 90px;
     }
     video {
         width: 200%;
@@ -236,6 +237,19 @@ a:hover{
     }
     .about-me {
         margin-top: -190%;
+    }
+    .myname{
+        font-size: 1.2rem;
+    }
+    .nav-links{
+        font-size: 1.5rem;
+    }
+    #close-nav{
+        left: 0px;
+        width: 50px;
+    }
+    .nav-link-content{
+        padding-top: 50px;
     }
   }
 
